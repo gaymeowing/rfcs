@@ -6,7 +6,7 @@ Adds unit axis constants `vector.xaxis`, `vector.yaxis`, and `vector.zaxis` to t
 
 ## Motivation
 
-Unit vectors along the coordinate axes are among the most common vector values in real code. Outside of runtimes with their own vector extensions, authors have to define these manually:
+Unit vectors along the coordinate axes are among the most common vector values in real code. Outside of runtimes with their own vector extensions, developers have to define these manually:
 
 ```luau
 local X_AXIS = vector.create(1, 0, 0)
